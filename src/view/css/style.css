@@ -117,7 +117,7 @@ header nav ul li.btn a:hover {
 
 .hero--info .btn {
     background: #DC7000;
-    color: black;
+    color: #fff;
     border-radius: 50px;
     padding: 15px 30px;
     border: 0;
@@ -137,4 +137,18 @@ header nav ul li.btn a:hover {
     position: absolute;
     top: -100px;
     right: 250px;
+}
+
+.trending h3 {
+    font-weight: 600;
+    font-size: 31px;
+}
+
+.trending .see-all {
+    color: #fff;
+    background: #ffba7b;
+    border-radius: 5px;
+    padding: 12px 23px;
+    float: right;
+    display: block;
 }
