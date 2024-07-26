@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -10,6 +11,7 @@ body {
     font-weight: 400;
     color: #fff;
     font-size: 16px;
+    display: flex;
 }
 
 a {
@@ -66,7 +68,7 @@ header nav ul li.active::after {
     display: block;
     width: 40px;
     height: 3px;
-    background: #DC7000;
+    background: #ff8200;
     border-radius: 10px;
     margin: 0 auto;
     position: relative;
@@ -101,7 +103,7 @@ header nav ul li.btn a:hover {
 .hero--info h2 {
     font-weight: bold;
     color: #DC7000;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .hero--info h1 {
@@ -139,6 +141,16 @@ header nav ul li.btn a:hover {
     right: 250px;
 }
 
+.trending {
+    padding-top: 50px;
+}
+
+.trending-cocktails img{
+    width: 300px;
+    height: 250px;
+    border-radius: 50px;
+}
+
 .trending h3 {
     font-weight: 600;
     font-size: 31px;
@@ -146,9 +158,134 @@ header nav ul li.btn a:hover {
 
 .trending .see-all {
     color: #fff;
-    background: #ffba7b;
+    background: #ff8200;
     border-radius: 5px;
     padding: 12px 23px;
     float: right;
     display: block;
+    transition: all 500ms ease;
+}
+
+.trending .see-all:hover {
+    transform: scale(1.1);
+}
+
+.trending .trending-cocktails {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.trending .trending-cocktails span {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.trending .trending-cocktails span img{
+    width: 20px;
+    height: 30px;
+    position: relative;
+    top: 5px;
+    margin-right: 5px;
+}
+
+.big-text {
+    padding: 50px 0;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    width: 1200px;
+}
+
+.banner {
+    width: 1400px;
+    margin-bottom: 30px;
+    border-bottom: 0 solid #000000;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.banner h3 {
+    color: #fff;
+    background: #000000;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: 700;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.banner ul {
+    position: relative;
+    background: #000000;
+}
+
+.banner ul:hover li {
+    opacity: 0.2;
+}
+
+.banner ul li {
+    margin-bottom: 10px; /* Добавляет отступ между элементами списка */
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+    background: #000000;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s;
+}
+
+.banner ul li:hover {
+    transform: scale(1.1);
+    z-index: 5;
+    background: #000000;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    opacity: 1;
+}
+
+.banner ul li span {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background: #ff8200;
+    color: #000000;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    transform: translateY(-2px);
+}
+
+.banner ul li:hover span {
+    background: #ff8200;
+    color: #000000;
+}
+
+.banner p {
+    display: block;
+    line-height: 170%;
+    width: 700px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner b{
+    color: #ff8200;
+}
+
+.banner img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 80%;
 }
