@@ -11,7 +11,6 @@ body {
     font-weight: 400;
     color: #fff;
     font-size: 16px;
-    display: flex;
 }
 
 a {
@@ -36,7 +35,7 @@ header {
     padding: 50px 0;
 }
 
-header .logo {
+header .logo, footer .blocks .logo {
     text-transform: uppercase;
     font-size: 29px;
     font-weight: 700;
@@ -290,7 +289,7 @@ header nav ul li.btn a:hover, .email .block button:hover{
     width: 50%;
 }
 
-/*Lower part*/
+/*--------------------Lower part--------------------*/
 .email {
     padding-bottom: 120px;
 }
@@ -352,4 +351,76 @@ header nav ul li.btn a:hover, .email .block button:hover{
     position: relative;
     z-index: 2;
     color: #fff;
+}
+
+/*--------------------Footer--------------------*/
+footer{
+    background: #000;
+    padding: 50px 0;
+}
+
+footer a{
+    color: white;
+}
+
+footer .blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .blocks p {
+    width: 300px;
+    margin: 15px 0;
+}
+
+footer .block h4 {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+footer .blocks ul {
+    list-style: none;
+}
+
+footer .blocks ul li, footer .blocks p {
+    margin-top: 7px;
+    opacity: 0.5;
+}
+
+footer hr {
+    margin: 30px 0;
+    border: 0;
+    height: 0.6px;
+    background: #ccc;
+}
+
+footer > p {
+    text-align: center;
+}
+
+/*Scroll to top*/
+.scroll-to-top {
+    display: none; /* Изначально скрыто */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #DC7000; /* Цвет фона */
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    z-index: 1000;
+    transform: rotate(-90deg);
+    transition: opacity 0.3s ease;
+}
+
+.scroll-to-top img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.scroll-to-top:hover {
+    background-color: #ff8200; /* Цвет фона при наведении */
 }
