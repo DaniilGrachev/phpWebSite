@@ -71,6 +71,31 @@
             <img src="/phpWebSite/assets/images/gendalf-home.jpg" alt="">
             <p>Join our community and start your journey into the world of cocktails today!</p>
         </div>
+
+        <div class="container email">
+            <h3>Subscribe to the newsletter</h3>
+            <p>Get news about new trending cocktails and suggestions for you, Dear User!</p>
+            <div class="block">
+                <div>
+                    <h4>Stay in the loop</h4>
+                    <p>Subscribe to receive the latest news and updates about site and other!</p>
+                </div>
+                <div>
+                    <input type="email" id="emailLetter" placeholder="Enter email address">
+                    <button onclick="checkEmailLetter()">Continue</button>
+                </div>
+            </div>
+        </div>
+
     </div>
+
+    <script>
+        function checkEmailLetter(){
+            let email = document.querySelector('#emailLetter').value;
+            if(!email.includes('@')) alert('Incorrect email!');
+            else if(!email.includes('.')) alert('Incorrect email!');
+            else alert('Successful!');
+        }
+    </script>
 </body>
 </html>
