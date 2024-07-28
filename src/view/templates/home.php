@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>MixologyHub</title>
     <link rel="stylesheet" href="/phpWebSite/src/view/css/style.css">
+    <script src="/phpWebSite/src/view/js/scripts.js" defer></script>
 </head>
 <body>
     <div class="wrapper">
@@ -11,10 +12,10 @@
             <span class="logo">MixologyHub</span>
             <nav>
                 <ul>
-                    <li class="active"><a href="\phpWebSite\src\view\templates\index.html">Home</a></li>
+                    <li class="active"><a href="\phpWebSite\src\view\templates\index.php">Home</a></li>
                     <li><a href="#">Find</a></li>
                     <li><a href="#">Profile</a></li>
-                    <li><a href="\phpWebSite\src\view\templates\about.html">About Us</a></li>
+                    <li><a href="\phpWebSite\src\view\templates\about.php">About Us</a></li>
                     <li class="btn"><a href="#">Contacts</a></li>
                 </ul>
             </nav>
@@ -88,7 +89,9 @@
         </div>
     </div>
 
-    <?php include __DIR__ . '/footer.php'; ?>
+    <?php require_once __DIR__ . '/footer.php';?>
+
+    <a href="#" class="scroll-to-top" id="scrollToTop"><img src="/phpWebSite/assets/images/arrow.png" alt="Scroll to top" /></a>
 
     <script>
         function checkEmailLetter(){
@@ -98,5 +101,6 @@
             else alert('Successful!');
         }
     </script>
+
 </body>
 </html>

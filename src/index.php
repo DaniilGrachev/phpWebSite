@@ -1,3 +1,3 @@
 <?php
-header("Location: /phpWebSite/src/view/templates/index.php");
+header("Location: /phpWebSite/src/view/templates/home.php");
 ?>
