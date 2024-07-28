@@ -11,10 +11,10 @@
             <span class="logo">MixologyHub</span>
             <nav>
                 <ul>
-                    <li class="active"><a href="#">Home</a></li>
+                    <li class="active"><a href="\phpWebSite\src\view\templates\index.html">Home</a></li>
                     <li><a href="#">Find</a></li>
                     <li><a href="#">Profile</a></li>
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="\phpWebSite\src\view\templates\about.html">About Us</a></li>
                     <li class="btn"><a href="#">Contacts</a></li>
                 </ul>
             </nav>
@@ -86,8 +86,9 @@
                 </div>
             </div>
         </div>
-
     </div>
+
+    <?php include __DIR__ . '/footer.php'; ?>
 
     <script>
         function checkEmailLetter(){
