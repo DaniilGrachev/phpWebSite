@@ -16,7 +16,7 @@
                     <li><a href="#">Find</a></li>
                     <li><a href="#">Profile</a></li>
                     <li><a href="\phpWebSite\src\view\templates\about.php">About Us</a></li>
-                    <li class="btn"><a href="#">Contacts</a></li>
+                    <li class="btn"><a href="\phpWebSite\src\view\templates\contacts.php">Contacts</a></li>
                 </ul>
             </nav>
         </header>
