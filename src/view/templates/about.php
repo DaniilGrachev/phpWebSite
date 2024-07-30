@@ -16,18 +16,40 @@
                 <li><a href="#">Find</a></li>
                 <li><a href="#">Profile</a></li>
                 <li class="active"><a href="\phpWebSite\src\view\templates\about.php">About Us</a></li>
-                <li class="btn"><a href="#">Contacts</a></li>
+                <li class="btn"><a href="\phpWebSite\src\view\templates\contacts.php">Contacts</a></li>
             </ul>
         </nav>
     </header>
 
         <div class="hero-about container">
             <div class="info">
-                <h1>danya grachev</h1>
-                <p>backend/python developer</p>
+                <h1>Daniil Grachev</h1>
+                <h3>Junior Python/PHP Developer</h3>
+                <p>Young programmer from Russia, Volgograd.</p>
                 <button class="btn">Get in touch</button>
             </div>
-            <img src="" alt="">
+            <img src="/phpWebSite/assets/images/me-about.jpg" alt="Daniil Grachev">
+        </div>
+
+        <div class="container work">
+            <h2>Work with me</h2>
+            <div class="blocks">
+                <div class="block">
+                    <span class="badge purple">GitHub</span>
+                    <h3>lorem ipsum</h3>
+                    <p>lorem ipsum</p>
+                </div>
+                <div class="block">
+                    <span class="badge brown">Telegram</span>
+                    <h3>lorem ipsum</h3>
+                    <p>lorem ipsum</p>
+                </div>
+                <div class="block">
+                    <span class="badge green">WhatsUp</span>
+                    <h3>lorem ipsum</h3>
+                    <p>lorem ipsum</p>
+                </div>
+            </div>
         </div>
     </div>
 
