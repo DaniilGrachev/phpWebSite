@@ -12,11 +12,11 @@
         <span class="logo">MixologyHub</span>
         <nav>
             <ul>
-                <li><a href="\phpWebSite\src\view\templates\home.php">Home</a></li>
+                <li><a href="/phpWebSite/src/view/templates/home.php">Home</a></li>
                 <li><a href="#">Find</a></li>
                 <li><a href="#">Profile</a></li>
-                <li class="active"><a href="\phpWebSite\src\view\templates\about.php">About Us</a></li>
-                <li class="btn"><a href="\phpWebSite\src\view\templates\contacts.php">Contacts</a></li>
+                <li class="active"><a href="/phpWebSite/src/view/templates/about.php">About Us</a></li>
+                <li class="btn"><a href="/phpWebSite/src/view/templates/contacts.php">Contacts</a></li>
             </ul>
         </nav>
     </header>

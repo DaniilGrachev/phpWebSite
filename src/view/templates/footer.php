@@ -10,7 +10,7 @@
             <ul>
                 <li>Owner</li>
                 <li>GitHub</li>
-                <li><a href="\phpWebSite\src\view\templates\contacts.php">Contact Us</a></li>
+                <li><a href="/phpWebSite/src/view/templates/contacts.php">Contact Us</a></li>
             </ul>
         </div>
         <div>

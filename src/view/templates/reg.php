@@ -22,7 +22,7 @@
 
 <div class="registration">
     <div class="container">
-        <form action="#" method="post" enctype="multipart/form-data">
+        <form action="\phpWebSite\src\model\register.php" method="post" enctype="multipart/form-data">
             <h2>Registration</h2>
             <label for="name">Name</label>
             <input type="text" id="name" name="name" placeholder="Alex" required>
